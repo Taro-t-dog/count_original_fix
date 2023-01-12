@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     var countNumber:Int = 0
     var eggImageNumber:Int = 0
-    var riceImageNumber: Int = 0
+    
     var eggImageArray = [
         "egg1",
         "egg2",
@@ -36,40 +36,36 @@ class ViewController: UIViewController {
         countNumber += 1
         print(countNumber)
         if countNumber == 15 {
-            eggImageNumber = 1
-            let eggName = eggImageArray[eggImageNumber]
-            let eggImage = UIImage(named: eggName)
+            
+            let eggImage = UIImage(named: "egg2")
             eggImageView.image = eggImage
             
         } else if countNumber == 20 {
-            eggImageNumber = 2
-            let eggName = eggImageArray[eggImageNumber]
-            let image = UIImage(named: eggName)
-            eggImageView.image = image
-            riceImageNumber = 1
-            let riceName = riceImageArray[riceImageNumber]
-            let riceImage = UIImage(named: riceName)
+            
+            let eggimage = UIImage(named: "Noimage")
+            eggImageView.image = eggimage
+            
+            let riceImage = UIImage(named: "rice1")
             riceImageView.image = riceImage
             doLabel.text = "極上の卵かけご飯のできあがり！"
             restartButton.isHidden = false
         }
         
     }
-
+    
     @IBAction func restart(_ sender: Any) {
-        eggImageNumber = 0
-        let eggName = eggImageArray[eggImageNumber]
-        let eggImage = UIImage(named: eggName)
+        
+        let eggImage = UIImage(named: "egg1")
         eggImageView.image = eggImage
-        riceImageNumber = 0
-        let riceName = riceImageArray[riceImageNumber]
-        let riceImage = UIImage(named: riceName)
+        
+        let riceImage = UIImage(named: "rice")
         riceImageView.image = riceImage
         doLabel.text = "極上の卵かけご飯を完成させろ！！"
         restartButton.isHidden = true
         countNumber = 0
         
     }
+    
     
     
     
