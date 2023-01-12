@@ -16,6 +16,7 @@
 		AFD5688B296F7B1B00F271D1 /* count_originalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD5688A296F7B1B00F271D1 /* count_originalTests.swift */; };
 		AFD56895296F7B1B00F271D1 /* count_originalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD56894296F7B1B00F271D1 /* count_originalUITests.swift */; };
 		AFD56897296F7B1B00F271D1 /* count_originalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD56896296F7B1B00F271D1 /* count_originalUITestsLaunchTests.swift */; };
+		AFD568A4296F7B7100F271D1 /* egg in Resources */ = {isa = PBXBuildFile; fileRef = AFD568A3296F7B7100F271D1 /* egg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AFD56890296F7B1B00F271D1 /* count_originalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count_originalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD56894296F7B1B00F271D1 /* count_originalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count_originalUITests.swift; sourceTree = "<group>"; };
 		AFD56896296F7B1B00F271D1 /* count_originalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count_originalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFD568A3296F7B7100F271D1 /* egg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = egg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				AFD56872296F7B1A00F271D1 /* count_original */,
+				AFD568A3296F7B7100F271D1 /* egg */,
 				AFD56889296F7B1B00F271D1 /* count_originalTests */,
 				AFD56893296F7B1B00F271D1 /* count_originalUITests */,
 				AFD56871296F7B1A00F271D1 /* Products */,
@@ -233,6 +236,7 @@
 			files = (
 				AFD56880296F7B1B00F271D1 /* LaunchScreen.storyboard in Resources */,
 				AFD5687D296F7B1B00F271D1 /* Assets.xcassets in Resources */,
+				AFD568A4296F7B7100F271D1 /* egg in Resources */,
 				AFD5687B296F7B1A00F271D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
